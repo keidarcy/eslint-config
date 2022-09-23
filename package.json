@@ -1,0 +1,23 @@
+{
+  "name": "@keidarcy/eslint-config-monorepo",
+  "version": "0.0.0",
+  "author": "Xing Yahao <keidarcy.1015@gmail.com> (https://github.com/keidarcy/)",
+  "private": true,
+  "packageManager": "pnpm@7.12.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "pnpm -r run test"
+  },
+  "keywords": [
+    "eslint-config",
+    "eslint-config-monorepo",
+    "eslint preset"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@keidarcy/eslint-config": "*",
+    "eslint-plugin-keidarcy": "workspace:*",
+    "typescript": "^4.8.3"
+  }
+}

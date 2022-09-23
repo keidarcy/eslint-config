@@ -1,0 +1,28 @@
+{
+  "name": "@keidarcy/eslint-config",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Xing Yahao <keidarcy.1015@gmail.com> (https://github.com/keidarcy/)",
+  "license": "MIT",
+  "homepage": "https://github.com/keidarcy/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
