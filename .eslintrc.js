@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@keidarcy',
+  extends: '@keidarcy/eslint-config/presets/node-prettier',
 };

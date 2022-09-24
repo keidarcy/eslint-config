@@ -1,7 +1,7 @@
 module.exports = {
-  extends: '@keidarcy',
+  extends: '@keidarcy/eslint-config/presets/node-prettier',
   plugins: ['keidarcy'],
   rules: {
     'keidarcy/no-bad-hello': 'error',
-  }
+  },
 };
