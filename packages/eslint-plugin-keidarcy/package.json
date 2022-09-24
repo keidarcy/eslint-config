@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "license": "MIT",
   "homepage": "https://github.com/keidarcy/eslint-config",
-  "main": "index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
-    "index.js"
+    "dist"
   ],
   "scripts": {
     "build": "rimraf dist && unbuild",
@@ -13,6 +15,12 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@typescript-eslint/utils": "^5.38.0",
     "eslint": "^8.23.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "unbuild": "^0.8.11",
+    "vitest": "^0.23.4"
   }
 }
