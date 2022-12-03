@@ -18,7 +18,7 @@
     "presets"
   ],
   "peerDependencies": {
-    "eslint": ">=7.4.0",
+    "eslint": ">=8.29.0",
     "typescript": ">=3.9"
   },
   "dependencies": {
