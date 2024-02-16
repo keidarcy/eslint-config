@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "author": "Xing Yahao <keidarcy.1015@gmail.com> (https://github.com/keidarcy/)",
   "private": true,
-  "packageManager": "pnpm@7.12.0",
+  "packageManager": "pnpm@7.33.7",
   "description": "",
   "scripts": {
     "lint": "eslint .",
